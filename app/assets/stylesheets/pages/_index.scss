@@ -1,2 +1,26 @@
 // Import page-specific CSS files here.
 @import "home";
+
+.header {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  background-color: $color-secondary;
+  width: 100vh;
+  height: 80vh;
+}
+
+.header__text-box {
+  &__title {
+    text-align: center;
+    padding: 8rem;
+    text-transform: uppercase;
+    color: $color-tertiary;
+    font-weight: 700;
+    font-size: 6rem;
+  }
+
+  &__text {
+  }
+}
